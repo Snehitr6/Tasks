@@ -1,3 +1,4 @@
+// Task 1
 let students = [
     { id: 1, name: "Rahul", department: "CSE", mark: 92 },
     { id: 2, name: "Priya", department: "ECE", mark: 78 },
@@ -11,7 +12,6 @@ for (let student of students) {
     console.log(student.name);
 }
 
-// Calculate total marks
 let totalMarks = 0;
 for (let student of students) {
     totalMarks += student.mark;
@@ -133,7 +133,6 @@ for (let food of foods) {
 }
 console.log("Total Menu Value:", totalValue);
 
-// Foods above ₹200
 console.log("Foods above ₹200:");
 for (let food of foods) {
     if (food.price > 200) {
